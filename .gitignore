@@ -1,0 +1,18 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 私有密钥（绝不入库）
+*.jks
+release.keystore
+*.pem
+*.key
+
+# 例外：公开密钥库（密码公开、随仓库提供，仅用于演示/不可上架）
+!app/public.keystore
